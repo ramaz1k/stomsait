@@ -62,6 +62,11 @@ header .dd {
   background-color: #27C8DA;
 }
 
+.sec2 {
+  width: 80%;
+  margin: auto;
+}
+
 .dddd {
   display: flex;
   gap: 50px;
@@ -114,5 +119,8 @@ header .dd {
     top: 300px;
     left: 90px;
     width: 250px;
+  }
+  .divo {
+    flex-wrap: wrap;
   }
 }/*# sourceMappingURL=style.css.map */

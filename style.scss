@@ -81,6 +81,13 @@ header {
   @extend .box1;
   background-color: #27C8DA;
 }
+
+
+.sec2{
+  width: 80%;
+  margin: auto;
+
+}
 .dddd{
   display: flex;
   gap: 50px;
@@ -156,5 +163,12 @@ header {
       }
     }
   }
+
+
+.divo{
+  flex-wrap: wrap;
+}
+
+
 
 }
