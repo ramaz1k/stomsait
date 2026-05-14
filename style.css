@@ -107,11 +107,19 @@ header .dd {
   color: white;
   padding: 30px 30px;
 }
+.divov img {
+  margin-top: -270px;
+}
 
 .nol {
   color: green;
   background-color: green;
   border-radius: 40%;
+}
+
+.text {
+  display: flex;
+  gap: 100px;
 }
 
 @media (max-width: 510px) {
@@ -150,6 +158,18 @@ header .dd {
     width: 250px;
   }
   .divo {
+    flex-wrap: wrap;
+  }
+  .sec3 {
+    height: 1000px;
+  }
+  .sec3 img {
+    display: none;
+  }
+  .divov {
+    flex-wrap: wrap;
+  }
+  .text {
     flex-wrap: wrap;
   }
 }/*# sourceMappingURL=style.css.map */

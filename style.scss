@@ -132,6 +132,9 @@ width: 80%;
 margin: auto;
 color: white;
 padding: 30px 30px;
+img{
+  margin-top: -270px;
+}
 
 }
 .nol{
@@ -140,7 +143,11 @@ padding: 30px 30px;
   border-radius: 40%;
 }
 .text{
+  display: flex;
+
+gap:100px ;
   
+
 }
 
 
@@ -203,6 +210,23 @@ padding: 30px 30px;
 
 .divo{
   flex-wrap: wrap;
+}
+
+.sec3{
+  height: 1000px;
+  img{
+    display: none;
+  }
+}
+
+
+.divov{
+    flex-wrap: wrap;
+
+}
+.text{
+      flex-wrap: wrap;
+
 }
 
 
