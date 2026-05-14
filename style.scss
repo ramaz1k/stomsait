@@ -1,0 +1,160 @@
+header {
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+
+  .pervi {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    .divvi {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+
+      .p2 {
+        display: inline-block;
+        padding: 10px 30px;
+        background-color: green;
+        border-radius: 20px;
+      }
+    }
+
+  }
+
+  .vtaroi {
+    @extend .pervi
+  }
+
+  .dd {
+    display: flex;
+    gap: 20px;
+  }
+
+
+}
+
+.headp {
+  display: none;
+}
+
+.sec1 {
+  width: 80%;
+  margin: auto;
+
+  h1 {
+    font-size: 30px;
+  }
+
+
+}
+  
+  .box1 {
+    width: 500px;
+    background-color: #3BB96D;
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+
+    p {
+    width: 300px;
+  }
+  
+  img {
+    position: absolute;
+    top: 60px;
+    left: 260px;
+  }
+  button{
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: none;
+  }
+  
+  
+
+}
+
+.box2{
+  @extend .box1;
+  background-color: #27C8DA;
+}
+.dddd{
+  display: flex;
+  gap: 50px;
+}
+.divo{
+  display: flex;
+  gap: 50px;
+}
+
+
+.didi{
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 10px black;
+
+}
+
+
+
+
+
+
+
+@media (max-width:510px) {
+  .headc {
+    display: none;
+  }
+
+
+  .headp {
+    display: block;
+    margin-top: 30px;
+
+    div {
+      gap: 100px;
+
+
+
+
+    }
+
+  }
+  .ddd {
+    display: flex;
+
+    p {
+      width: 1px;
+    }
+
+  }
+
+
+
+  .sec1{
+    width: 80%;
+    flex-wrap: wrap;
+    margin: auto;
+    .dddd{
+      flex-wrap: wrap;
+    }
+
+    .box1{
+      height: 460px;
+      width: 95%;
+      margin-left: -20px;
+      
+      img{
+        top: 300px;
+        left: 90px;
+        width: 250px;
+      }
+    }
+  }
+
+}

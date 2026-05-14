@@ -1,0 +1,118 @@
+header {
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+}
+header .pervi, header .vtaroi {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+header .pervi .divvi, header .vtaroi .divvi {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+header .pervi .divvi .p2, header .vtaroi .divvi .p2 {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: green;
+  border-radius: 20px;
+}
+header .dd {
+  display: flex;
+  gap: 20px;
+}
+
+.headp {
+  display: none;
+}
+
+.sec1 {
+  width: 80%;
+  margin: auto;
+}
+.sec1 h1 {
+  font-size: 30px;
+}
+
+.box1, .box2 {
+  width: 500px;
+  background-color: #3BB96D;
+  color: white;
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+}
+.box1 p, .box2 p {
+  width: 300px;
+}
+.box1 img, .box2 img {
+  position: absolute;
+  top: 60px;
+  left: 260px;
+}
+.box1 button, .box2 button {
+  border-radius: 15px;
+  padding: 10px 20px;
+  border: none;
+}
+
+.box2 {
+  background-color: #27C8DA;
+}
+
+.dddd {
+  display: flex;
+  gap: 50px;
+}
+
+.divo {
+  display: flex;
+  gap: 50px;
+}
+
+.didi {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 10px black;
+}
+
+@media (max-width: 510px) {
+  .headc {
+    display: none;
+  }
+  .headp {
+    display: block;
+    margin-top: 30px;
+  }
+  .headp div {
+    gap: 100px;
+  }
+  .ddd {
+    display: flex;
+  }
+  .ddd p {
+    width: 1px;
+  }
+  .sec1 {
+    width: 80%;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .sec1 .dddd {
+    flex-wrap: wrap;
+  }
+  .sec1 .box1, .sec1 .box2 {
+    height: 460px;
+    width: 95%;
+    margin-left: -20px;
+  }
+  .sec1 .box1 img, .sec1 .box2 img {
+    top: 300px;
+    left: 90px;
+    width: 250px;
+  }
+}/*# sourceMappingURL=style.css.map */
